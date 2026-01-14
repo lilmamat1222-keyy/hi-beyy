@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 160, 160);
+    margin: 0;
+}
+table, td, tr, th{
+    border: 0px solid black;
+    border-collapse: collapse;
+    margin: 25px 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px ;
+}
+th{
+    line-height: 1px;
+    border: 0px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timebox{
+    border: 0px solid black;
+    margin: 0;
+    display: flex;
+    gap: 90px;
+    background-color: rgb(255, 161, 176);
+    padding: 180px 380px;
+    border-radius: 10px;
+    animation: slideup 2s alternate ;
+}
+@keyframes slideup {
+    0% {transform: 
+        translateY(20px); opacity: 0;}
+        100% {transform: translateY(0);opacity: 1;}
+        ;}
+
+.time{
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+.A1{
+    line-height: 110%;
+    text-align: center;
+    animation: fadein 2s infinite alternate;
+}
